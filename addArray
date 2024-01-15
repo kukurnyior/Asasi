@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i = 0, x;
+    int a[x], b[x], c[x];
+    
+    cout<<"insert number of element you want"<<endl;
+    cin>>x;
+    
+       for (i = 0; i < x; i++) {
+           cout<<"A"<<i<<" :";
+           cin>>a[i];
+    
+    }  for (i = 0; i < x; i++) {  
+            cout<<"B"<<i<<" :";
+           cin>>b[i];
+        
+        
+} cout<<"sum is : ";
+for (i = 0; i < x; i++){
+    c[i] = a[i] + b[i];
+    cout<<c[i]<<',';
+}
+
+
+
+   
+    
+
+    return 0;
+}
